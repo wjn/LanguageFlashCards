@@ -1,0 +1,2 @@
+# LanguageFlashCards
+CLI Duolingo Flashcards
