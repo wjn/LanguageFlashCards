@@ -1,2 +1,2 @@
-# LanguageFlashCards
-CLI Language Learning Tool
+# Language Learner
+CLI Multi-Language Learning Tool.

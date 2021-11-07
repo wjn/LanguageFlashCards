@@ -1,8 +1,6 @@
 package com.nielsendigital;
 
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
 
 public class Main {
 

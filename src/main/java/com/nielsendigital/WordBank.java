@@ -5,16 +5,12 @@ import java.sql.Timestamp;
 import java.util.LinkedList;
 import java.util.List;
 
-import static com.diogonunes.jcolor.Ansi.colorize;
-
 /*
 WordBank manages a specific set of words (WordBankEntry (WBE) instances). Each WBE has fields which
 correspond to the csv that stores the persistent record and tracks progress.
 
 WordBank must be instantiated with a path to a csv that follows the tuple format of :
     [ForeignLanguage,NativeLanguage,Grammar,Answer,LastSeen,CountSeen,CountIncorrect]
-
-
  */
 public class WordBank {
     private File wordBankFile;
@@ -26,7 +22,7 @@ public class WordBank {
     public WordBank(String pathname, boolean shouldPrintDetails) throws Exception {
         this.shouldPrintDetails = shouldPrintDetails;
         this.delimiter = ",";
-        this.wordList = new LinkedList<WordBankEntry>();
+        this.wordList = new LinkedList<>();
         if(!getFile(pathname)) {
             throw new Exception("ERROR: csv file was not read at " + pathname);
         }
@@ -108,7 +104,7 @@ public class WordBank {
         return this.getWordList().size() == 0;
     }
 
-    private boolean readFileToEntries() throws Exception {
+    private boolean readFileToEntries() {
         LinkedList<WordBankEntry> wordList = readFileToEntries(this.wordBankFile,
                 this.wordList,
                 this.delimiter,
@@ -118,12 +114,12 @@ public class WordBank {
 
     public static LinkedList<WordBankEntry> readFileToEntries(File wordBankFile,
                                                         LinkedList<WordBankEntry> wordList,
-                                                        String delimiter, boolean shouldPrintDetails) throws Exception {
+                                                        String delimiter, boolean shouldPrintDetails) {
         try {
             BufferedReader br = new BufferedReader(new FileReader(wordBankFile));
             String line;
             int prevNumEntries = wordList.size();
-            LinkedList<WordBankEntry> copyWordList = wordList;
+            LinkedList<WordBankEntry> copyWordList = new LinkedList<>(wordList);
 
             int count = -1; // once in loop immediately goes to 0, then checks to see if 1st row is a header row
             boolean hasHeaderRow = true;
@@ -177,7 +173,7 @@ public class WordBank {
                         wordList.size() + " : current word bank size\n" +
                         (expectedWordBankSize - wordList.size()) + " : difference");
                 System.out.println("Restored prior list.");
-                wordList = copyWordList;
+                return copyWordList;
             }
 
             return wordList;
@@ -232,7 +228,7 @@ public class WordBank {
             }
         }
 
-        // the list size when the wordbank was first created
+        // the list size when the word bank was first created
         int originalListSize = this.numberEntriesOnLoad;
         // expects the current wordlist to have grown since load as words have been added by user
         int rowsExpectedToAdd = this.getWordList().size() - originalListSize;
@@ -302,7 +298,7 @@ public class WordBank {
         private final String camelCase;
         private final String text;
 
-        private EntryHeading(int index, String camelCase, String text) {
+        EntryHeading(int index, String camelCase, String text) {
             this.index = index;
             this.camelCase = camelCase;
             this.text = text;
