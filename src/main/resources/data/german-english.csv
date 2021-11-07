@@ -1,0 +1,306 @@
+ForeignLanguage,NativeLanguage,Grammar,Answer,LastSeen,CountSeen,CountIncorrect
+"das buch","the book","Noun neuter singular","the book  noun neuter singular","2021-10-31 11:38:51.806","1","0"
+"das Deutsch","German","Noun neuter singular","German  noun neuter singular","2021-10-31 11:39:38.483","1","1"
+"das Ei","the egg","Noun neuter singular","the egg  noun neuter singular","2021-10-31 11:38:59.186","1","0"
+"Das Englisch","English","Noun neuter singular","English  noun neuter singular","2021-10-31 11:39:21.63","1","0"
+"das Fleisch","the meat","Noun neuter singular","the meat  noun neuter singular","2021-10-31 11:38:47.115","1","0"
+"das Gemüse","the vegetables","Noun neuter singular","the vegetables  noun neuter singular","2021-10-31 11:39:26.614","1","0"
+"das Haustier","the pet","Noun neuter singular","the pet  noun neuter singular","2021-10-31 11:39:43.797","1","0"
+"das Insekt","the insect","Noun neuter singular","the insect  noun neuter singular","2021-10-31 11:39:10.293","1","1"
+"das Mädchen","the girl","Noun neuter singular","the girl  noun neuter singular","2021-10-31 11:39:32.228","1","0"
+"das Pferd","the horse","Noun neuter singular","the horse  noun neuter singular","2021-10-31 11:38:30.622","1","1"
+"das Reis","the rice","Noun neuter singular","the rice  noun neuter singular","0001-01-01 00:00:00.0","0","0"
+"das Salz","the salt","Noun neuter singular","the salt  noun neuter singular","0001-01-01 00:00:00.0","0","0"
+"das Schwein","the pig","Noun neuter singular","the pig  noun neuter singular","0001-01-01 00:00:00.0","0","0"
+"das Tier","the animal","Noun neuter singular","the animal  noun neuter singular","0001-01-01 00:00:00.0","0","0"
+"den/die/das","the","Determiner (accusative) masc/fem/neu","the  determiner (accusative) masc/fem/neu","0001-01-01 00:00:00.0","0","0"
+"denke","I think","Verb 1st person singular","I think  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"denken","we/they think","Verb 1st person plural 3rd person plural","we/they think  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"der Apfel","the apple","Noun masculine singular","the apple  noun masculine singular","0001-01-01 00:00:00.0","0","0"
+"der Apfelsaft","the apple juice","Noun masculine singular","the apple juice  noun masculine singular","0001-01-01 00:00:00.0","0","0"
+"der Durst","thirst","Noun masculine singular","thirst  noun masculine singular","0001-01-01 00:00:00.0","0","0"
+"der Fisch","the fish","Noun masculine singular","the fish  noun masculine singular","0001-01-01 00:00:00.0","0","0"
+"der Hund","the dog","Noun masculine singular","the dog  noun masculine singular","0001-01-01 00:00:00.0","0","0"
+"der Käse","the cheese","Noun masculine singular","the cheese  noun masculine singular","0001-01-01 00:00:00.0","0","0"
+"der Orangensaft","the orange juice","Noun masculine singular","the orange juice  noun masculine singular","0001-01-01 00:00:00.0","0","0"
+"der Ring","the ring","Noun masculine singular","the ring  noun masculine singular","0001-01-01 00:00:00.0","0","0"
+"der Saft","the juice","Noun masculine singular","the juice  noun masculine singular","0001-01-01 00:00:00.0","0","0"
+"der Vogel","the bird","Noun masculine singular","the bird  noun masculine singular","0001-01-01 00:00:00.0","0","0"
+"der Wein","the wine","Noun masculine singular","the wine  noun masculine singular","0001-01-01 00:00:00.0","0","0"
+"der/die/das","the","Determiner (nominative) masc/fem/neu","the  determiner (nominative) masc/fem/neu","0001-01-01 00:00:00.0","0","0"
+"Deutschland","Germany","Proper noun","Germany  proper noun","0001-01-01 00:00:00.0","0","0"
+"die Äpfel","the apples","Noun masculine plural","the apples  noun masculine plural","0001-01-01 00:00:00.0","0","0"
+"die Bananen","the bananas","Noun feminine plural","the bananas  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Biene","the bee","Noun feminine singular","the bee  noun feminine singular","0001-01-01 00:00:00.0","0","0"
+"die Bücher","the books","Noun neuter plural","the books  noun neuter plural","0001-01-01 00:00:00.0","0","0"
+"die Eier","the eggs","Noun neuter plural","the eggs  noun neuter plural","0001-01-01 00:00:00.0","0","0"
+"die Ente","the duck ","Noun feminine singular","the duck   noun feminine singular","0001-01-01 00:00:00.0","0","0"
+"die Enten","the ducks","Noun feminine plural","the ducks  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Entschuldigung","excuse me","Noun feminine singular","excuse me  noun feminine singular","0001-01-01 00:00:00.0","0","0"
+"die Erdbeere","the strawberry","Noun feminine singular","the strawberry  noun feminine singular","0001-01-01 00:00:00.0","0","0"
+"die Erdbeeren","the strawberries","Noun feminine plural","the strawberries  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Fliege","the fly","Noun feminine singular","the fly  noun feminine singular","0001-01-01 00:00:00.0","0","0"
+"die Fliegen","the flies","Noun feminine plural","the flies  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Frau","the woman","Noun feminine singular","the woman  noun feminine singular","0001-01-01 00:00:00.0","0","0"
+"die Hunde","The dogs","Noun masculine singular","The dogs  noun masculine singular","0001-01-01 00:00:00.0","0","0"
+"die Jungen","the boys","Noun masculine plural","the boys  noun masculine plural","0001-01-01 00:00:00.0","0","0"
+"die Käfer","beetles","Noun masculine plural","beetles  noun masculine plural","0001-01-01 00:00:00.0","0","0"
+"die Kartoffel","the potato","Noun feminine singular","the potato  noun feminine singular","0001-01-01 00:00:00.0","0","0"
+"die Kartoffeln","the potatoes","Noun feminine plural","the potatoes  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Katzen","the cats","Noun feminine plural","the cats  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Kinder","the children","Noun feminine plural","the children  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Kühe","The cows","Noun feminine plural","The cows  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Männer","the men","Noun masculine plural","the men  noun masculine plural","0001-01-01 00:00:00.0","0","0"
+"die Maus ","the mouse","Noun feminine singular","the mouse  noun feminine singular","0001-01-01 00:00:00.0","0","0"
+"die Mäuse","the mice","Noun feminine plural","the mice  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Menschen","the people","Noun masculine plural","the people  noun masculine plural","0001-01-01 00:00:00.0","0","0"
+"die Milch","the milk","Noun feminine singular","the milk  noun feminine singular","0001-01-01 00:00:00.0","0","0"
+"die Nudeln","the noodles","Noun feminine plural","the noodles  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Orangen","the oranges","Noun feminine plural","the oranges  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Pizzas","the pizzas","Noun feminine plural","the pizzas  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Schokolade","the chocolate","Noun feminine singular","the chocolate  noun feminine singular","0001-01-01 00:00:00.0","0","0"
+"die Schweine","the pigs","Noun neuter plural","the pigs  noun neuter plural","0001-01-01 00:00:00.0","0","0"
+"die Spinnen","the spiders","Noun feminine plural","the spiders  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Suppe","the soup","Noun feminine singular","the soup  noun feminine singular","0001-01-01 00:00:00.0","0","0"
+"die Tiere","the animals","Noun masculine plural","the animals  noun masculine plural","0001-01-01 00:00:00.0","0","0"
+"die Tomaten","the tomatoes","Noun feminine plural","the tomatoes  noun feminine plural","0001-01-01 00:00:00.0","0","0"
+"die Zeitung","the newspaper","Noun feminine singular","the newspaper  noun feminine singular","0001-01-01 00:00:00.0","0","0"
+"du","you","Pronoun 2nd person singular","you  pronoun 2nd person singular","0001-01-01 00:00:00.0","0","0"
+"ein/eine/ein","a","Determiner masc/fem/neu","a  determiner masc/fem/neu","0001-01-01 00:00:00.0","0","0"
+"einen/eine/ein","a/an","Determiner masc/fem/neu accusative","a/an  determiner masc/fem/neu","0001-01-01 00:00:00.0","0","0"
+"einfach","easy","Adjective","easy  adjective","0001-01-01 00:00:00.0","0","0"
+"er/sie/es","he/she/it","Pronoun masc/fem/neu singular 3rd person singular","he/she/it  pronoun masc/fem/neu singular 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"es tut mir leid","excuse me","Phrase","excuse me  phrase","0001-01-01 00:00:00.0","0","0"
+"esst","you eat","Verb 2nd person singular","you eat  verb 2nd person singular","0001-01-01 00:00:00.0","0","0"
+"fährt","he/she/it drives","Verb 3rd person singular","he/she/it drives  verb 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"fertig","ready","Adjective","ready  adjective","0001-01-01 00:00:00.0","0","0"
+"frei","free","Adjective","free  adjective","0001-01-01 00:00:00.0","0","0"
+"frisch","fresh","Adjective","fresh  adjective","0001-01-01 00:00:00.0","0","0"
+"gehe","I go","Verb 1st person singular","I go  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"gehen","we/they go","Verb 1st person plural 3rd person plural","we/they go  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"genau","precisely","Phrase","precisely  phrase","0001-01-01 00:00:00.0","0","0"
+"gern geschehen","you’re welcome","Phrase","you’re welcome  phrase","0001-01-01 00:00:00.0","0","0"
+"gesund","healthy","Adjective","healthy  adjective","0001-01-01 00:00:00.0","0","0"
+"groß","tall big","Adjective","tall big  adjective","0001-01-01 00:00:00.0","0","0"
+"gut","good","Adjective","good  adjective","0001-01-01 00:00:00.0","0","0"
+"gute nacht","good night","Phrase","good night  phrase","0001-01-01 00:00:00.0","0","0"
+"guten abend","good evening","Phrase","good evening  phrase","0001-01-01 00:00:00.0","0","0"
+"guten morgen","good morning","Phrase","good morning  phrase","0001-01-01 00:00:00.0","0","0"
+"habe","I have","Verb 1st person singular","I have  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"habt","y'all have","Verb 2nd person plural","y'all have  verb 2nd person plural","0001-01-01 00:00:00.0","0","0"
+"hallo","hello ","Interjection","hello   interjection","0001-01-01 00:00:00.0","0","0"
+"hast","you have","Verb 2nd person singular","you have  verb 2nd person singular","0001-01-01 00:00:00.0","0","0"
+"hat","he/she/it has","Verb 3rd person singular","he/she/it has  verb 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"heiße","I am called","Verb 1st person singular","I am called  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"heißt","you/y'all he/she/it is/are called","Verb 2nd person singular 2nd person plural 3rd person singular","you/y'all he/she/it is/are called  verb 2nd person singular 2nd person plural 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"hoch","high","Adjective","high  adjective","0001-01-01 00:00:00.0","0","0"
+"höre","I hear","Verb 1st person singular","I hear  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"hörst","you hear","Verb 2nd person singular","you hear  verb 2nd person singular","0001-01-01 00:00:00.0","0","0"
+"hört","y'all he/she/it hear(s)","Verb 2nd person plural 3rd person singular","y'all he/she/it hear(s)  verb 2nd person plural 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"ich","I","Pronoun 1st person singular","I  pronoun 1st person singular","0001-01-01 00:00:00.0","0","0"
+"ihr","y’all","Pronoun 2nd person plural","y’all  pronoun 2nd person plural","0001-01-01 00:00:00.0","0","0"
+"in ordnung","in order","Phrase","in order  phrase","0001-01-01 00:00:00.0","0","0"
+"isst","you he/she/it eats","Verb 2nd person singular 3rd person singular","you he/she/it eats  verb 2nd person singular 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"ja","yes","Adverb","yes  adverb","0001-01-01 00:00:00.0","0","0"
+"jung","young","Adjective","young  adjective","0001-01-01 00:00:00.0","0","0"
+"kalt","cold","Adjective","cold  adjective","0001-01-01 00:00:00.0","0","0"
+"keine ahnung","no idea","Phrase","no idea  phrase","0001-01-01 00:00:00.0","0","0"
+"kennen","we/they know","Verb 1st person plural 3rd person plural","we/they know  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"kennst","you know","Verb 2nd person singular","you know  verb 2nd person singular","0001-01-01 00:00:00.0","0","0"
+"kennt","y'all he/she/it know(s)","Verb 2nd person plural 3rd person singular","y'all he/she/it know(s)  verb 2nd person plural 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"klar","clear","Adjective","clear  adjective","0001-01-01 00:00:00.0","0","0"
+"klein","small short","Adjective note: of person/animal only","small short  adjective note: of person/animal only","0001-01-01 00:00:00.0","0","0"
+"komme","I come","Verb 1st person singular","I come  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"kommen","we/they come","Verb 1st person plural 3rd person plural","we/they come  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"kommst","you come","Verb 2nd person singular","you come  verb 2nd person singular","0001-01-01 00:00:00.0","0","0"
+"kommt","y'all he/she/it come(s)","Verb 2nd person plural 3rd person singular","y'all he/she/it come(s)  verb 2nd person plural 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"kurz","short","Adjective note: of object only","short  adjective note: of object only","0001-01-01 00:00:00.0","0","0"
+"lang","long","Adjective","long  adjective","0001-01-01 00:00:00.0","0","0"
+"läufst","you walk","Verb 2nd person singular","you walk  verb 2nd person singular","0001-01-01 00:00:00.0","0","0"
+"läuft","he/she/it walks","Verb 3rd person singular","he/she/it walks  verb 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"laut","loud","Adjective","loud  adjective","0001-01-01 00:00:00.0","0","0"
+"lecker","delicious tasty ","Adjective","delicious tasty   adjective","0001-01-01 00:00:00.0","0","0"
+"leicht","light","Adjective note: refers to weight only","light  adjective note: refers to weight only","0001-01-01 00:00:00.0","0","0"
+"leider","unfortunately","Adverb","unfortunately  adverb","0001-01-01 00:00:00.0","0","0"
+"leise","quiet soft","Adjective","quiet soft  adjective","0001-01-01 00:00:00.0","0","0"
+"lerne","I learn","Verb 1st person singular","I learn  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"lernen","we/they learn","Verb 1st person plural 3rd person plural","we/they learn  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"lernt","y'all he/she/it learn(s)","Verb 2nd person plural 3rd person singular","y'all he/she/it learn(s)  verb 2nd person plural 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"lese","I read","Verb 1st person singular","I read  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"lest","y’all read","Verb 2nd person plural","y’all read  verb 2nd person plural","0001-01-01 00:00:00.0","0","0"
+"liest","you read","Verb 2nd person singular","you read  verb 2nd person singular","0001-01-01 00:00:00.0","0","0"
+"lustig","funny","Adjective","funny  adjective","0001-01-01 00:00:00.0","0","0"
+"machst","you like","Verb 2nd person plural","you like  verb 2nd person plural","0001-01-01 00:00:00.0","0","0"
+"mag","I he/she/it like(s)","Verb 1st person singular 3rd person singular","I he/she/it like(s)  verb 1st person singular 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"mir geht's gut","I’m doing well","Phrase","I’m doing well  phrase","0001-01-01 00:00:00.0","0","0"
+"mögen","we/they like","Verb 1st person plural 3rd person plural","we/they like  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"mögt","y’all like","Verb 2nd person plural","y’all like  verb 2nd person plural","0001-01-01 00:00:00.0","0","0"
+"müde","tired","Adjective","tired  adjective","0001-01-01 00:00:00.0","0","0"
+"nein","no","Adverb","no  adverb","0001-01-01 00:00:00.0","0","0"
+"neu","new","Adjective","new  adjective","0001-01-01 00:00:00.0","0","0"
+"nicht","not","Adverb","not  adverb","0001-01-01 00:00:00.0","0","0"
+"normal","normal","Adjective","normal  adjective","0001-01-01 00:00:00.0","0","0"
+"perfekt","perfect","Adjective","perfect  adjective","0001-01-01 00:00:00.0","0","0"
+"reicht","y'all he/she/it is enough","Verb 2nd person plural 3rd person singular","y'all he/she/it is enough  verb 2nd person plural 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"renne","I run","Verb 1st person singular","I run  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"rennen","we/they run","Verb 1st person plural 3rd person plural","we/they run  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"rennst","you run","Verb 2nd person singular","you run  verb 2nd person singular","0001-01-01 00:00:00.0","0","0"
+"rund","round","Adjective","round  adjective","0001-01-01 00:00:00.0","0","0"
+"sauber","clean","Adjective","clean  adjective","0001-01-01 00:00:00.0","0","0"
+"schlafe","I sleep","Verb 1st person singular","I sleep  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"schläft","he/she/it sleeps","Verb 3rd person singular","he/she/it sleeps  verb 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"schön","beautiful","Adjective","beautiful  adjective","0001-01-01 00:00:00.0","0","0"
+"schreiben","we/they write","Verb 1st person plural 3rd person plural","we/they write  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"schwach","weak","Adjective","weak  adjective","0001-01-01 00:00:00.0","0","0"
+"schwer","heavy","Adjective","heavy  adjective","0001-01-01 00:00:00.0","0","0"
+"schwimme","I swim","Verb 1st person singular","I swim  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"schwimmen","we/they swim","Verb 1st person plural 3rd person plural","we/they swim  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"schwimmst","you swim","Verb 2nd person singular","you swim  verb 2nd person singular","0001-01-01 00:00:00.0","0","0"
+"schwimmt","y'all he/she/it swim(s)","Verb 2nd person plural 3rd person singular","y'all he/she/it swim(s)  verb 2nd person plural 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"sehen","we/they see","Verb 1st person plural 3rd person plural","we/they see  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"seht","y'all he/she/it see(s)","Verb 2nd person plural 3rd person singular","y'all he/she/it see(s)  verb 2nd person plural 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"seid","y'all are","Verb 2nd person plural","y'all are  verb 2nd person plural","0001-01-01 00:00:00.0","0","0"
+"sie","she/they","Pronoun 3rd person singular 3rd person plural","she/they  pronoun 3rd person singular 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"sind","they are","Verb 3rd person plural","they are  verb 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"spiele","I play","Verb 1st person singular","I play  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"spielen","we/they play","Verb 1st person plural 3rd person plural","we/they play  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"spielst","you play","Verb 2nd person singular","you play  verb 2nd person singular","0001-01-01 00:00:00.0","0","0"
+"spreche","I speak","Verb 1st person singular","I speak  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"sprecht","y’all speak","Verb 2nd person plural","y’all speak  verb 2nd person plural","0001-01-01 00:00:00.0","0","0"
+"sprichst","you speak","Verb 2nd person singular","you speak  verb 2nd person singular","0001-01-01 00:00:00.0","0","0"
+"stark","strong","Adjective","strong  adjective","0001-01-01 00:00:00.0","0","0"
+"süß","sweet","Adjective","sweet  adjective","0001-01-01 00:00:00.0","0","0"
+"teuer","expensive","Adjective","expensive  adjective","0001-01-01 00:00:00.0","0","0"
+"tief","deep","Adjective","deep  adjective","0001-01-01 00:00:00.0","0","0"
+"toll","great","Adjective","great  adjective","0001-01-01 00:00:00.0","0","0"
+"traurig","sad","Adjective","sad  adjective","0001-01-01 00:00:00.0","0","0"
+"trinke","I drink","Verb 1st person plural","I drink  verb 1st person plural","0001-01-01 00:00:00.0","0","0"
+"trinken","we/they drink","Verb 1st person plural 3rd person plural","we/they drink  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"trinkt","y'all he/she/it drink(s)","Verb 2nd person plural 3rd person singular","y'all he/she/it drink(s)  verb 2nd person plural 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"tschüss","bye","Interjection","bye  interjection","0001-01-01 00:00:00.0","0","0"
+"und","and","Conjunction","and  conjunction","0001-01-01 00:00:00.0","0","0"
+"verstehe","I understand","Verb 1st person singular","I understand  verb 1st person singular","0001-01-01 00:00:00.0","0","0"
+"verstehen","we/they understand","Verb 1st person plural 3rd person plural","we/they understand  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"versteht","y'all he/she/it understand(s)","Verb 2nd person plural 3rd person singular","y'all he/she/it understand(s)  verb 2nd person plural 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"warm","warm","Adjective","warm  adjective","0001-01-01 00:00:00.0","0","0"
+"waschen","we/they wash","Verb 1st person plural 3rd person plural","we/they wash  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"wäscht","he/she/it wash","Verb 3rd person singular","he/she/it wash  verb 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"weit","Wide","Adjective","Wide  adjective","0001-01-01 00:00:00.0","0","0"
+"wichtig","important","Adjective","important  adjective","0001-01-01 00:00:00.0","0","0"
+"wie geht's","how’s it going ","Phrase","how’s it going   phrase","0001-01-01 00:00:00.0","0","0"
+"will","I he/she/it want","Verb 1st person singular 3rd person singular","I he/she/it want  verb 1st person singular 3rd person singular","0001-01-01 00:00:00.0","0","0"
+"willkommen","welcome","Adjective","welcome  adjective","0001-01-01 00:00:00.0","0","0"
+"willst","you want","Verb 2nd person singular","you want  verb 2nd person singular","0001-01-01 00:00:00.0","0","0"
+"wir","we","Pronoun 1st person plural","we  pronoun 1st person plural","0001-01-01 00:00:00.0","0","0"
+"wollen","we/they want","Verb 1st person plural 3rd person plural","we/they want  verb 1st person plural 3rd person plural","0001-01-01 00:00:00.0","0","0"
+"wollt","y'all want","Verb 2nd person plural","y'all want  verb 2nd person plural","0001-01-01 00:00:00.0","0","0"
+"gehst","you go","Verb 2nd person singular","you go  verb 2nd person singular","0001-01-01 00:00:01.0","0","0"
+"der Hut","the hat","Noun masculine singular","the hat  noun masculine singular","0001-01-01 00:00:02.0","0","0"
+"die Hüte","the hats","Noun masculine plural","the hats  noun masculine plural","0001-01-01 00:00:03.0","0","0"
+"das Kleid","the dress","Noun neuter singular","the dress  noun neuter singular","0001-01-01 00:00:04.0","0","0"
+"die Kleider","the dresses","Noun neuter plural","the dresses  noun neuter plural","0001-01-01 00:00:05.0","0","0"
+"lernst","you learn","Verb 2nd person singular","you learn  verb2nd person singular","0001-01-01 00:00:06.0","0","0"
+"mache","I make","Verb 1st person singular","I make  verb 1st person singular","0001-01-01 00:00:07.0","0","0"
+"machen","we/they make","Verb 1st person plural 3rd person plural","we/they make  verb 1st person plural 3rd person plural","0001-01-01 00:00:08.0","0","0"
+"macht","y'all he/she/it make(s)","Verb 2nd person plural 3rd person singular","y'all he/she/it make(s)  verb 2nd person plural 3rd person singular","0001-01-01 00:00:09.0","0","0"
+"magst","you make","Verb 2nd person singular","you make  verb 2nd person singular","0001-01-01 00:00:10.0","0","0"
+"rennt","y’all he/she/it run(s)","Verb 2nd person plural 3rd person singular","y’all he/she/it run(s)  verb 2nd person plural 3rd person singular","0001-01-01 00:00:11.0","0","0"
+"der Rock","the skirt","Noun masculine singular","the skirt  noun masculine singular","0001-01-01 00:00:12.0","0","0"
+"schläfst","you sleep","Verb 2nd person singular","you sleep  verb 2nd person singular","0001-01-01 00:00:13.0","0","0"
+"schreibst","you write","Verb 2nd person singular","you write  verb 2nd person singular","0001-01-01 00:00:14.0","0","0"
+"der Schuh","the shoe","Noun masculine singular","the shoe  noun masculine singular","0001-01-01 00:00:15.0","0","0"
+"die Schuhe","the shoes","Noun masculine plural","the shoes  noun masculine plural","0001-01-01 00:00:16.0","0","0"
+"trage","I carry","Verb 1st person singular","I carry  verb 1st person singular","0001-01-01 00:00:17.0","0","0"
+"trägst","you carry","Verb 2nd person singular","you carry  verb 2nd person singular","0001-01-01 00:00:18.0","0","0"
+"trägt","he/she/it carries","Verb 3rd person singular","he/she/it carries  verb 3rd person singular","0001-01-01 00:00:19.0","0","0"
+"tragen","we/they carry","Verb 3rd person plural","we/they carry  verb 3rd person plural","0001-01-01 00:00:20.0","0","0"
+"beginnen","we/they begin","Verb 1st person plural 3rd person plural","we/they begin  verb 1st person plural 3rd person plural","2021-10-23 16:56:54.722","1","0"
+"aus","from","Preposition","from  preposition","2021-10-23 16:56:58.021","1","0"
+"schlafen","we/they sleep","Verb 1st person plural 3rd person plural","we/they sleep  verb 1st person plural 3rd person plural","2021-10-23 17:02:16.94","1","0"
+"die Kuh ","the cow ","Noun feminine singular","the cow   noun feminine singular","2021-10-23 17:02:20.161","1","0"
+"der Mann","the man","Noun masculine singular","the man  noun masculine singular","2021-10-23 17:04:59.402","1","0"
+"der Zucker","the sugar","Noun masculine singular","the sugar  noun masculine singular","2021-10-23 17:06:52.395","1","0"
+"geht","y'all he/she/it go(es)","Verb 2nd person plural 3rd person singular","y'all he/she/it go(es)  verb 2nd person plural 3rd person singular","2021-10-23 17:07:01.308","1","1"
+"bringe","I bring","Verb 1st person singular","I bring  verb 1st person singular","2021-10-23 17:12:10.819","1","0"
+"das Eis","the ice ice cream","Noun neuter singular dual meaning","the ice ice cream  noun neuter singular dual meaning","2021-10-23 17:12:14.09","1","1"
+"essen","we/they eat","Verb 1st person plural 3rd person plural","we/they eat  verb 1st person plural 3rd person plural","2021-10-23 17:16:01.898","1","0"
+"bitte","please","Adverb","please  adverb","2021-10-23 17:24:04.773","1","0"
+"spielt","y'all he/she/it play(s)","Verb 2nd person plural 3rd person singular","y'all he/she/it play(s)  verb 2nd person plural 3rd person singular","2021-10-23 17:25:06.741","1","0"
+"der Junge","the boy","Noun masculine singular","the boy  noun masculine singular","2021-10-23 17:51:35.276","1","0"
+"guten tag","good afternoon","Phrase","good afternoon  phrase","2021-10-23 17:51:49.809","1","0"
+"schmeckt","y'all he/she/it taste(s)","Verb 2nd person plural 3rd person singular","y'all he/she/it taste(s)  verb 2nd person plural 3rd person singular","2021-10-23 17:52:13.435","1","1"
+"lesen","we/they read","Verb 1st person plural 3rd person plural","we/they read  verb 1st person plural 3rd person plural","2021-10-23 17:53:34.631","1","0"
+"die Pizza","the pizza","Noun feminine singular","the pizza  noun feminine singular","2021-10-23 17:54:10.676","1","0"
+"kenne","I know","Verb 1st person singular","I know  verb 1st person singular","2021-10-23 17:54:18.461","1","0"
+"richtig","correct","Adjective","correct  adjective","2021-10-23 18:05:44.439","1","0"
+"die Katze","the cat","Noun feminine singular","the cat  noun feminine singular","2021-10-23 18:05:47.888","1","0"
+"schreibe","I write","Verb 1st person singular","I write  verb 1st person singular","2021-10-23 18:05:54.806","1","1"
+"die Fische","the fish","Noun masculine plural","the fish  noun masculine plural","2021-10-23 18:06:02.892","1","0"
+"danke","thank you","Interjection","thank you  interjection","2021-10-23 18:07:36.417","1","0"
+"schnell","fast","Adjective","fast  adjective","2021-10-23 18:07:40.737","1","0"
+"verstehst","you understand","Verb 2nd person singular","you understand  verb 2nd person singular","2021-10-23 18:07:49.229","1","0"
+"die Frauen","the women","Noun feminine plural","the women  noun feminine plural","2021-10-23 18:07:52.932","1","0"
+"laufen","we/they walk","Verb 1st person plural 3rd person plural","we/they walk  verb 1st person plural 3rd person plural","2021-10-23 18:08:03.628","1","0"
+"schlecht","bad","Adjective","bad  adjective","2021-10-24 15:21:23.169","2","0"
+"denkt","y'all he/she/it think(s)","Verb 2nd person plural 3rd person singular","y'all he/she/it think(s)  verb 2nd person plural 3rd person singular","2021-10-24 15:21:39.023","1","0"
+"die Insekten","the insects","Noun neuter plural","the insects  noun neuter plural","2021-10-24 15:21:55.935","1","0"
+"das Kind","the child","Noun neuter singular","the child  noun neuter singular","2021-10-24 15:22:24.395","1","0"
+"ruhig","quiet calm","Adjective","quiet calm  adjective","2021-10-24 15:23:23.419","1","0"
+"der Kaffee","the coffee","Noun masculine singular","the coffee  noun masculine singular","2021-10-24 15:23:27.162","1","0"
+"das Öl","the oil","Noun neuter singular","the oil  noun neuter singular","2021-10-24 15:23:29.603","1","0"
+"heißen","we/they are called","Verb 1st person plural 3rd person plural","we/they are called  verb 1st person plural 3rd person plural","2021-10-24 15:23:40.252","1","0"
+"haben","we/they have","Verb 1st person plural 3rd person plural","we/they have  verb 1st person plural 3rd person plural","2021-10-24 15:23:48.895","1","0"
+"fahren","we/they drive","Verb 1st person plural 3rd person plural","we/they drive  verb 1st person plural 3rd person plural","2021-10-24 15:23:55.179","1","0"
+"sprechen","we/they speak","Verb 1st person plural 3rd person plural","we/they speak  verb 1st person plural 3rd person plural","2021-10-24 15:24:02.749","1","0"
+"die Zeitungen","the newspapers","Noun feminine plural","the newspapers  noun feminine plural","2021-10-24 15:24:08.845","1","0"
+"der Hunger","the hunger","Noun masculine singular","the hunger  noun masculine singular","2021-10-24 15:24:23.907","1","0"
+"schmutzig","dirty","Adjective","dirty  adjective","2021-10-24 15:24:39.164","2","0"
+"bezahle","I pay","Verb 1st person singular","I pay  verb 1st person singular","2021-10-24 15:24:47.279","1","0"
+"die Bären","the bears","Noun masculine plural","the bears  noun masculine plural","2021-10-24 15:24:51.105","1","0"
+"die Vögel","the birds","Noun masculine plural","the birds  noun masculine plural","2021-10-24 15:25:02.888","1","0"
+"langsam","Slowly","Adjective","Slowly  adjective","2021-10-24 17:37:40.544","1","0"
+"die Orange","the orange ","Noun feminine singular","the orange   noun feminine singular","2021-10-24 17:39:59.454","1","0"
+"esse","I eat","Verb 1st person singular","I eat  verb 1st person singular","2021-10-24 17:40:06.049","2","0"
+"ist","he/she/it is","Verb 3rd person singular","he/she/it is  verb 3rd person singular","2021-10-24 17:40:14.248","3","0"
+"siehst","you see","Verb 2nd person singular","you see  verb 2nd person singular","2021-10-24 17:40:22.799","1","0"
+"trinkst","you drink","Verb 2nd person singular","you drink  verb 2nd person singular","2021-10-24 17:40:26.015","1","0"
+"der Bär","the bear","Noun masculine singular","the bear  noun masculine singular","2021-10-24 17:40:30.775","1","0"
+"bezahlt","he/she/it pays","Verb 3rd person singular","he/she/it pays  verb 3rd person singular","2021-10-25 06:54:18.866","2","0"
+"bin","I am","Verb 1st person singular","I am  verb 1st person singular","2021-10-25 06:54:43.549","1","0"
+"beginnst","you begin","Verb 2nd person singular","you begin  verb 2nd person singular","2021-10-25 06:54:48.172","1","0"
+"auf wiedersehen","goodbye","Phrase","goodbye  phrase","2021-10-25 06:55:06.038","1","1"
+"bis später","see you later","Phrase","see you later  phrase","2021-10-25 06:55:14.632","1","0"
+"bist","you are","Verb 2nd person singular","you are  verb 2nd person singular","2021-10-25 07:02:09.061","1","0"
+"alt","old","Adjective","old  adjective","2021-10-25 07:02:11.885","1","0"
+"brauchen","we/they need","Verb 1st person plural 3rd person plural","we/they need  verb 1st person plural 3rd person plural","2021-10-25 07:02:28.714","1","1"
+"das Bier","the beer","Noun neuter singular","the beer  noun neuter singular","2021-10-25 07:02:40.043","1","0"
+"das Brot","the bread","Noun neuter singular","the bread  noun neuter singular","2021-10-25 07:02:43.811","1","0"
+"bringst","you bring","Verb 2nd person singular","you bring  verb 2nd person singular","2021-10-25 07:02:51.201","1","1"
+"bezahlen","we/they pay","Verb 1st person plural 3rd person plural","we/they pay  verb 1st person plural 3rd person plural","2021-10-25 07:02:57.121","1","0"
+"bezahlst","you pay","Verb 2nd person singular","you pay  verb 2nd person singular","2021-10-25 07:03:00.281","1","0"
+"bringt","y'all he/she/it brings","Verb 2nd person plural 3rd person singular","y'all he/she/it brings  verb 2nd person plural 3rd person singular","2021-10-25 07:03:10.867","1","0"
+"brauche","I need","Verb 1st person singular","I need  verb 1st person singular","2021-10-25 07:03:18.124","1","0"
+"bis bald","see you soon","Phrase","see you soon  phrase","2021-10-25 07:05:39.47","2","1"
+"bis morgen","see you in the morning","Phrase","see you in the morning  phrase","2021-10-25 07:05:52.384","2","1"
+"das Essen","the food","Noun neuter singular","the food  noun neuter singular","2021-10-25 07:05:57.402","2","2"
+"das Obst","the fruit","Noun neuter singular","the fruit  noun neuter singular","2021-10-25 07:06:42.728","3","1"
+"der Tee","the tea","Noun masculine singular","the tea  noun masculine singular","2021-10-25 07:06:50.749","2","1"
+"beginnt","y’all he/she/it begin(s)","Verb 2nd person plural 3rd person singular","y’all he/she/it begin(s)  verb 2nd person plural 3rd person singular","2021-10-25 07:07:10.628","3","2"
+"denkst","you think","Verb 2nd person singular","you think  verb 2nd person singular","2021-10-25 07:07:22.959","2","1"
+"spricht","he/she/it speaks","Verb 3rd person singular","he/she/it speaks  verb 3rd person singular","2021-10-25 07:08:19.139","3","2"
+"alles klar","understood","Phrase","understood  phrase","2021-10-25 07:08:43.62","4","2"
+"fallen","we/they fall","Verb 1st person plural 3rd person plural","we/they fall  Verb 1st person plural 3rd person plural","2021-11-04 07:21:03.611","0","0"
+"die Natur","Nature","Noun feminine singular","Nature  Noun feminine singular","2021-11-04 18:29:23.631","0","0"
+"der Himmel","the sky","Noun masculine singular","the sky  Noun masculine singular","2021-11-04 18:37:34.288","0","0"
+"die Luft","the air","Noun feminine singular","the air  Noun feminine singular","2021-11-04 18:44:29.231","0","0"
+"die Blume","the flower","Noun feminine singular","the flower  Noun feminine singular","2021-11-04 18:54:33.478","0","0"
+"die Blumen","the flowers","Noun feminine plural","the flowers  Noun feminine plural","2021-11-04 18:59:30.187","0","0"
+"der Berge","the mountain","Noun masculine singular","the mountain  Noun masculine singular","2021-11-04 19:03:17.89","0","0"
+"die Berge","the mountains","Noun masculine plural","the mountains  Noun masculine plural","2021-11-04 19:05:56.618","0","0"
+"der Stern","the star","Noun masculine singular","the star  Noun masculine singular","2021-11-05 05:48:43.268","0","0"
+"die Sterne","the stars","Noun masculine plural","the stars  Noun masculine plural","2021-11-05 05:49:09.212","0","0"
+"die Sonne","the sun","Noun feminine singular","the sun  Noun feminine singular","2021-11-05 06:48:33.047","0","0"
+"das Meer","the sea","Noun neuter singular","the sea  Noun neuter singular","2021-11-05 07:00:00.362","0","0"
+"der Mond","the moon","Noun masculine singular","the moon  Noun masculine singular","2021-11-05 07:12:45.191","0","0"
+"das Feuer","the fire","Noun neuter singular","the fire  Noun neuter singular","2021-11-05 07:50:18.512","0","0"
+"der Wind","the wind","Noun masculine singular","the wind  Noun masculine singular","2021-11-06 13:11:18.304","0","0"
