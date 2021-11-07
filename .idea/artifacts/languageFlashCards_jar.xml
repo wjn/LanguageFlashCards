@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="languageFlashCards:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/languageFlashCards_jar</output-path>
+    <root id="archive" name="languageFlashCards.jar">
+      <element id="module-output" name="languageFlashCards" />
+      <element id="library" level="project" name="diogonunes.JColor" />
+    </root>
+  </artifact>
+</component>
