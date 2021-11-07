@@ -1,2 +1,2 @@
 # LanguageFlashCards
-CLI Duolingo Flashcards
+CLI Language Learning Tool
