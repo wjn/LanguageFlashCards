@@ -39,9 +39,9 @@ public class UI {
         private static final String initialMessage = Write.appName + " Main Menu";
 
         private static int run() {
-            System.out.println("\n" + Draw.hr_squig);
+            System.out.println("\n" + Draw.hr_squiggle);
             System.out.println(Dialogs.initialMessage);
-            System.out.println(Draw.hr_squig + "\n");
+            System.out.println(Draw.hr_squiggle + "\n");
 
             System.out.println("""
                     1. Quick quiz
@@ -161,9 +161,7 @@ public class UI {
                     scanner.nextLine();
 
                     switch (Objects.requireNonNull(selected)) {
-                        case SEARCH -> {
-                            searchWordBank(getWordBank());
-                        }
+                        case SEARCH -> searchWordBank(getWordBank());
                         case ADD_ENTRY -> addEntry(getWordBank());
                         case UPDATE_ENTRY -> editEntry(getWordBank());
                         case REMOVE_ENTRY -> removeEntry(getWordBank());
@@ -221,52 +219,50 @@ public class UI {
                     System.out.println("RESULTS for : " +
                             colorize(searchTerm, Attribute.BRIGHT_BLUE_TEXT()) +
                             " in " + colorize(searchCategory.getText(), Attribute.BRIGHT_BLUE_TEXT()) + "\n");
-                    if (foundEntries == null && foundEntries.size() == 0) {
+                    if (Objects.requireNonNull(foundEntries).size() == 0) {
                         System.out.println("No entries found.");
                     } else {
                         StringBuilder results = new StringBuilder();
                         int colSizeCount = 6;
-                        int colSizeForeign = colSizeCount * 4;
-                        int colSizeNative = colSizeForeign;
-                        int colSizeGrammar = colSizeForeign * 2;
-                        int colSizeLastSeen = colSizeForeign;
+                        int colSizeLarge = colSizeCount * 4;
+                        int colSizeGrammar = colSizeLarge * 2;
                         int justification = 0;
 
                         // heading row
                         results.append(wrapTermWithSpace(colSizeCount, "#", justification)).append(" | ");
-                        results.append(wrapTermWithSpace(colSizeForeign, WordBank.EntryHeading.FOREIGN_LANGUAGE.getText(), justification)).append(" | ");
-                        results.append(wrapTermWithSpace(colSizeNative, WordBank.EntryHeading.NATIVE_LANGUAGE.getText(), justification)).append(" | ");
-                        results.append(wrapTermWithSpace(colSizeGrammar, WordBank.EntryHeading.GRAMMAR.getText(), justification)).append(" | ");
-                        results.append(wrapTermWithSpace(colSizeCount, WordBank.EntryHeading.COUNT_SEEN.getText(), justification)).append(" | ");
-                        results.append(wrapTermWithSpace(colSizeCount, WordBank.EntryHeading.COUNT_INCORRECT.getText(), justification)).append(" | ");
-                        results.append(wrapTermWithSpace(colSizeLastSeen, WordBank.EntryHeading.LAST_SEEN.getText(), justification)).append(" | ");
+                        results.append(wrapTermWithSpace(colSizeLarge, com.nielsendigital.WordBank.EntryHeading.FOREIGN_LANGUAGE.getText(), justification)).append(" | ");
+                        results.append(wrapTermWithSpace(colSizeLarge, com.nielsendigital.WordBank.EntryHeading.NATIVE_LANGUAGE.getText(), justification)).append(" | ");
+                        results.append(wrapTermWithSpace(colSizeGrammar, com.nielsendigital.WordBank.EntryHeading.GRAMMAR.getText(), justification)).append(" | ");
+                        results.append(wrapTermWithSpace(colSizeCount, com.nielsendigital.WordBank.EntryHeading.COUNT_SEEN.getText(), justification)).append(" | ");
+                        results.append(wrapTermWithSpace(colSizeCount, com.nielsendigital.WordBank.EntryHeading.COUNT_INCORRECT.getText(), justification)).append(" | ");
+                        results.append(wrapTermWithSpace(colSizeLarge, com.nielsendigital.WordBank.EntryHeading.LAST_SEEN.getText(), justification)).append(" | ");
                         results.append("\n");
 
                         // separator between heading row and table body
                         results.append(wrapTermWithSpace(colSizeCount, "≈".repeat(colSizeCount), justification)).append(" | ");
-                        results.append(wrapTermWithSpace(colSizeForeign, "≈".repeat(colSizeForeign), justification)).append(" | ");
-                        results.append(wrapTermWithSpace(colSizeNative, "≈".repeat(colSizeNative), justification)).append(" | ");
+                        results.append(wrapTermWithSpace(colSizeLarge, "≈".repeat(colSizeLarge), justification)).append(" | ");
+                        results.append(wrapTermWithSpace(colSizeLarge, "≈".repeat(colSizeLarge), justification)).append(" | ");
                         results.append(wrapTermWithSpace(colSizeGrammar, "≈".repeat(colSizeGrammar), justification)).append(" | ");
                         results.append(wrapTermWithSpace(colSizeCount, "≈".repeat(colSizeCount), justification)).append(" | ");
                         results.append(wrapTermWithSpace(colSizeCount, "≈".repeat(colSizeCount), justification)).append(" | ");
-                        results.append(wrapTermWithSpace(colSizeLastSeen, "≈".repeat(colSizeLastSeen), justification)).append(" | ");
+                        results.append(wrapTermWithSpace(colSizeLarge, "≈".repeat(colSizeLarge), justification)).append(" | ");
                         results.append("\n");
 
 
                         // table body
                         int count = 0;
-                        Collections.sort(foundEntries, (entry1, entry2) -> entry1.getForeignLanguage().compareTo(entry2.getForeignLanguage()));
+                        foundEntries.sort(Comparator.comparing(com.nielsendigital.WordBankEntry::getForeignLanguage));
 
-                        for (WordBankEntry wbe : foundEntries) {
+                        for (com.nielsendigital.WordBankEntry wbe : foundEntries) {
                             count++;
                             String[] col = wbe.getAllValues();
                             results.append(wrapTermWithSpace(colSizeCount, Integer.toString(count), justification)).append(" | ");
-                            results.append(wrapTermWithSpace(colSizeForeign, col[WordBank.EntryHeading.FOREIGN_LANGUAGE.getIndex()], justification)).append(" | ");
-                            results.append(wrapTermWithSpace(colSizeNative, col[WordBank.EntryHeading.NATIVE_LANGUAGE.getIndex()], justification)).append(" | ");
-                            results.append(wrapTermWithSpace(colSizeGrammar, col[WordBank.EntryHeading.GRAMMAR.getIndex()], justification)).append(" | ");
-                            results.append(wrapTermWithSpace(colSizeCount, col[WordBank.EntryHeading.COUNT_SEEN.getIndex()], justification)).append(" | ");
-                            results.append(wrapTermWithSpace(colSizeCount, col[WordBank.EntryHeading.COUNT_INCORRECT.getIndex()], justification)).append(" | ");
-                            results.append(wrapTermWithSpace(colSizeLastSeen, col[WordBank.EntryHeading.LAST_SEEN.getIndex()], justification)).append(" | ");
+                            results.append(wrapTermWithSpace(colSizeLarge, col[com.nielsendigital.WordBank.EntryHeading.FOREIGN_LANGUAGE.getIndex()], justification)).append(" | ");
+                            results.append(wrapTermWithSpace(colSizeLarge, col[com.nielsendigital.WordBank.EntryHeading.NATIVE_LANGUAGE.getIndex()], justification)).append(" | ");
+                            results.append(wrapTermWithSpace(colSizeGrammar, col[com.nielsendigital.WordBank.EntryHeading.GRAMMAR.getIndex()], justification)).append(" | ");
+                            results.append(wrapTermWithSpace(colSizeCount, col[com.nielsendigital.WordBank.EntryHeading.COUNT_SEEN.getIndex()], justification)).append(" | ");
+                            results.append(wrapTermWithSpace(colSizeCount, col[com.nielsendigital.WordBank.EntryHeading.COUNT_INCORRECT.getIndex()], justification)).append(" | ");
+                            results.append(wrapTermWithSpace(colSizeLarge, col[com.nielsendigital.WordBank.EntryHeading.LAST_SEEN.getIndex()], justification)).append(" | ");
                             results.append("\n");
                         }
                         System.out.println(results);
@@ -303,7 +299,7 @@ public class UI {
                 // 2: right
 
                 boolean isReduced = false;
-                // ensure there's is enough space in the column for the content
+                // ensure there's enough space in the column for the content
                 if (content.length() > columnSize) {
                     isReduced = true;
                     // abbreviate content that is too long.
@@ -316,8 +312,8 @@ public class UI {
 
                 // calculate spaced needed
                 int spaceNeeded = columnSize - content.length();
-                int leftPadding = 0;
-                int rightPadding = 0;
+                int leftPadding;
+                int rightPadding;
 
 
                 if (spaceNeeded < 0) {
@@ -396,9 +392,8 @@ public class UI {
                 String[] files = dataDir.list();
 
                 if (files == null || files.length < 1) {
-                    System.out.println("ROOT: " + root.toString());
-                    System.out.println("dataDirPath: " + dataDirPath.toString());
-                    System.out.println("files count: " + files.length);
+                    System.out.println("ROOT: " + root);
+                    System.out.println("dataDirPath: " + dataDirPath);
                     throw new Exception("ERROR: there are no files in the data directory.\n" + dataDir.getCanonicalPath());
                 }
 
@@ -432,16 +427,16 @@ public class UI {
 
             }
 
-            private static void removeEntry(WordBank wordBank) {
-                Write.WordBankEntryEditorMenuHeading(menuName, "Removing", wordBank);
+            private static void removeEntry(com.nielsendigital.WordBank wordBank) {
+                System.out.println(Write.WordBankEntryEditorMenuHeading(menuName, "Removing", wordBank));
             }
 
-            private static void editEntry(WordBank wordBank) {
-                Write.WordBankEntryEditorMenuHeading(menuName, "Editing", wordBank);
+            private static void editEntry(com.nielsendigital.WordBank wordBank) {
+                System.out.println(Write.WordBankEntryEditorMenuHeading(menuName, "Editing", wordBank));
             }
 
-            private static void addEntry(WordBank wordBank) throws Exception {
-                Write.WordBankEntryEditorMenuHeading(menuName, "Adding", wordBank);
+            private static void addEntry(com.nielsendigital.WordBank wordBank) throws Exception {
+                System.out.println(Write.WordBankEntryEditorMenuHeading(menuName, "Adding", wordBank));
 
                 LinkedList<WordBankEntry> newEntries = new LinkedList<>();
                 do {
@@ -453,7 +448,7 @@ public class UI {
                 System.out.println("You have " + newEntries.size() + " ready to add:\n");
 
                 // display entries
-                System.out.println(Draw.hr_squig_half);
+                System.out.println(Draw.hr_squiggle_half);
                 int count = 0;
                 for (WordBankEntry wbe : newEntries) {
                     count++;
@@ -465,7 +460,7 @@ public class UI {
                         System.out.println(Draw.hr_thin_half + "\n");
                     }
                 }
-                System.out.println(Draw.hr_squig_half);
+                System.out.println(Draw.hr_squiggle_half);
 
 
                 // confirm user wants to save
@@ -476,7 +471,7 @@ public class UI {
                     addEntry(wordBank);
                 }
 
-                // write to wordbank file
+                // write to word bank file
                 entryEntries = (count == 1) ? "entry was" : "entries were";
                 // add the entries to the end of the list in memory
                 if (wordBank.appendWordBankEntriesList(newEntries) && wordBank.writeEntriesToFile()) {
@@ -736,16 +731,13 @@ public class UI {
                 PosChange selectedPosChange = null;
                 PosChangeType posChangeType = pos.getChangeType();
                 ArrayList<String> errorList = new ArrayList<>();
-                PosChange[] posChangeArray;
 
                 if (posChangeType == PosChangeType.CONJUGATION) {
-                    posChangeArray = Conjugation.values();
                     for (Conjugation conjugation : Conjugation.values()) {
                         System.out.println("\t" + conjugation.getAbbreviation() + ": " + conjugation.getText() +
                                 " (" + conjugation.getPronouns() + ").");
                     }
                 } else { // declensions
-                    posChangeArray = Declension.values();
                     for (Declension declension : Declension.values()) {
                         System.out.println("\t" + declension.getAbbreviation() + ": " + declension.toGrammarString());
                     }
@@ -757,18 +749,8 @@ public class UI {
                     scanner.nextLine();
 
                     return getPosChangeFromAbbreviation(userEntry, posChangeType);
-                } else {
-                    errorList.add(Write.enterNumberBetween(0, (posChangeArray.length - 1)));
                 }
-
-                if (errorList.size() > 0) {
-                    for (String e : errorList) {
-                        System.out.println(e);
-                    }
-                    selectedPosChange = null;
-                }
-
-                return selectedPosChange;
+                return null;
             }
 
             private static String getEnumMenuList(WithAbbreviations[] menuList) {
@@ -1038,12 +1020,12 @@ public class UI {
                 }
 
                 private static boolean confirm(int numWords, com.nielsendigital.Quiz.QuizType testType, com.nielsendigital.Quiz.QuizDirection testDirection) {
-                    System.out.println(Draw.hr_squig);
+                    System.out.println(Draw.hr_squiggle);
                     System.out.println("Please confirm the following config for your quiz:");
                     System.out.println("\tNumber of Words: " + numWords);
                     System.out.println("\tQuiz Type: " + testType.getQuizType());
                     System.out.println("\tDirectional Focus: " + testDirection.getDirectionType());
-                    System.out.println(Draw.hr_squig + "\n");
+                    System.out.println(Draw.hr_squiggle + "\n");
                     return askYesNoQuestion("Does this look right?");
                 }
 
@@ -1251,8 +1233,8 @@ public class UI {
         public static final String hr_thin = "----------------------------------------";
         public static final String hr_thin_half = "--------------------";
         public static final String hr_thin_quarter = "----------";
-        public static final String hr_squig = "≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈";
-        public static final String hr_squig_half = "≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈";
-        public static final String hr_squig_quarter = "≈≈≈≈≈≈≈≈≈≈";
+        public static final String hr_squiggle = "≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈";
+        public static final String hr_squiggle_half = "≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈";
+        public static final String hr_squiggle_quarter = "≈≈≈≈≈≈≈≈≈≈";
     }
 }

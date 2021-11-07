@@ -225,10 +225,10 @@ public class Quiz {
         // eventually may return true/false depending on how the PrintWriter works
         this.testBank.writeEntriesToFile();
 
-        System.out.println("\n" + UI.Draw.hr_squig);
+        System.out.println("\n" + UI.Draw.hr_squiggle);
         System.out.println("\n                      Congratulations!");
-        System.out.println("\n" + UI.Draw.hr_squig + "\n");
-        score = (((double) numCorrect / (double) count)*100);
+        System.out.println("\n" + UI.Draw.hr_squiggle + "\n");
+        score = (((double) numCorrect / (double) count) * 100);
         System.out.println("You scored " + String.format("%.2f", score) + "%");
     }
 
